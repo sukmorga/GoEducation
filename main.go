@@ -21,13 +21,13 @@ func main() {
 
 	fmt.Println("Реши квадратное уравнение")
 	fmt.Println("Введи а:")
-	fmt.Scan("&a")
+	fmt.Scan(&a)
 
 	fmt.Println("Введи b:")
-	fmt.Scan("&b")
+	fmt.Scan(&b)
 
 	fmt.Println("Введи с:")
-	fmt.Scan("&c")
+	fmt.Scan(&c)
 
 	d := (b * b) - 4 * (a * c)
 	
