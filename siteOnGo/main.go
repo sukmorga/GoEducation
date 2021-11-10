@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"text/template"
 	
-	"github.com/gorilla/mux"
+	// "github.com/gorilla/mux"
 
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
